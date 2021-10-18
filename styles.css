@@ -1,0 +1,148 @@
+html {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+}
+
+body {
+    margin:auto;
+    box-sizing: border-box;
+    width: 90em;
+    height: 100em;
+    border: 1px solid black;
+    color:white;
+} 
+
+header img {
+    display:inline;
+    float: left;
+    margin-top: 0.5em;
+    max-height: 100%;
+}
+
+header {
+    height: 8em;
+    margin-left: 1.5em;
+}
+
+header ul {
+    float: left;
+    margin-top: 4em;
+    padding-left:4px;
+}
+
+.top-nav li{
+    font-size: 15px;
+    display: inline;
+    padding-right: 1em;
+}
+
+
+
+/*Front image container */
+
+.intro-container {
+    background-image: url("images/couple.png");
+    background-size: cover;  
+    height: 40em;
+    margin-left: 3.5em;
+    margin-right: 3.5em;
+}
+
+.intro-content {
+    padding-top: 18em;
+    width: 70%;
+    height:20em;
+}
+
+.intro-content h1 {
+    font-size: 4em;
+    color: cyan;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 0.5em;
+}
+
+.intro-content p {
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-bottom: 1.75em;
+    padding-top: 0px;
+    padding-left: 2em;
+    
+}
+
+.intro-buttons {
+    margin-left: 1em;
+}
+.intro-buttons p {
+    display: inline;
+    margin-top: 2em;
+}
+
+#play-button {
+    color:black;
+    font-size: 2em;
+    border: 1px solid white;
+    padding: 5px 20px 5px 45px;
+    background-color: white;
+    border-radius: 0.2em;
+
+}
+
+#more-info-button {
+    font-size: 2em;
+    color: white;
+    border: 1px solid grey;
+    padding: 3px 15px 3px 65px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 0.2em;
+
+}
+
+/* Main content */
+
+.main-content img{
+    max-height:100%;
+    max-width:40em;
+    padding-right: 1em;
+}
+.main-content {
+    height: 60em;
+    margin-top: 5em;
+    margin-left: 3em;
+    width: 100%;
+}
+
+.main-content .watch-it-again {
+    font-size: 3em;
+    padding:0px;
+    max-height:100%;
+}
+
+.left-section, .right-section {
+    height:100%;
+    width: 35em;
+    float: left;
+}
+.left-movie, .right-movie  {
+    font-size:1.7em;
+    margin-bottom: 3em;
+    height: 15em;
+
+}
+.left-movie img, .right-movie img {
+    float:left;
+}
+.left-movie p, .right-movie p  {
+    display:block;
+    line-height: 1.5;
+
+}
+
+.right-section{
+    width: 38em;
+    margin-left: 4em;
+    padding-right:2em;
+    
+}
